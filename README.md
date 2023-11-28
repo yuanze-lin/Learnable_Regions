@@ -1,4 +1,7 @@
 # Text-Driven Image Editing via Learnable Regions
+
+**[Paper]([https://yuanze-lin.me/](https://arxiv.org/abs/))** | **[Project Page]([https://wenz116.github.io/](https://yuanze-lin.me/LearnableRegions_page/))** | **[Youtube video](https://www.youtube.com/watch?v=FpMWRXFraK8&feature=youtu.be)**
+
 Official implementation of "Text-Driven Image Editing via Learnable Regions"
 
 [Yuanze Lin](https://yuanze-lin.me/), [Yi-Wen Chen](https://wenz116.github.io/), [Yi-Hsuan Tsai](https://sites.google.com/site/yihsuantsai/), [Lu Jiang](http://www.lujiang.info/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/)
