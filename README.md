@@ -21,3 +21,8 @@ Abstract: Language has emerged as a natural interface for image editing. In this
 ## Results Using Diverse Prompts 
 
 ![image](https://github.com/yuanze-lin/LearnableRegions/blob/main/assets/results.png)
+
+## Additional Results
+
+![image](https://github.com/yuanze-lin/LearnableRegions/blob/main/assets/results2.png)
+![image](https://github.com/yuanze-lin/LearnableRegions/blob/main/assets/results3.png)
