@@ -25,4 +25,3 @@ Abstract: Language has emerged as a natural interface for image editing. In this
 ## Additional Results
 
 ![image](https://github.com/yuanze-lin/LearnableRegions/blob/main/assets/results2.png)
-![image](https://github.com/yuanze-lin/LearnableRegions/blob/main/assets/results3.png)
