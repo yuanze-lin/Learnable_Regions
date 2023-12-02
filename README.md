@@ -28,9 +28,11 @@ Abstract: Language has emerged as a natural interface for image editing. In this
 
 ## BibTeX
 
+```
 @article{lin2023text,
   title={Text-Driven Image Editing via Learnable Regions},
   author={Lin, Yuanze and Chen, Yi-Wen and Tsai, Yi-Hsuan and Jiang, Lu and Yang, Ming-Hsuan},
   journal={arXiv preprint arXiv:2311.16432},
   year={2023}
 }
+```
