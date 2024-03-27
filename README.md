@@ -1,4 +1,4 @@
-# Text-Driven Image Editing via Learnable Regions (Accepted to CVPR 2024)
+# Text-Driven Image Editing via Learnable Regions (CVPR 2024)
 
 **[Paper](https://arxiv.org/abs/2311.16432)** | **[Project Page](https://yuanze-lin.me/LearnableRegions_page/)** | **[Youtube Video](https://www.youtube.com/watch?v=FpMWRXFraK8&feature=youtu.be)**
 
