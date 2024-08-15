@@ -72,10 +72,10 @@ def compute_similarity(input_img_feature, image_features, dino_input_img_feature
         iti_similarity = torch.nn.functional.cosine_similarity(image_features, input_img_feature).softmax(dim=0)
         tti_similarity = torch.nn.functional.cosine_similarity(image_features, text_features).softmax(dim=0)
         dino_iti_similarity = torch.nn.functional.cosine_similarity(dino_image_features, dino_input_img_feature).softmax(dim=0) 
-    #else:
-    #    iti_similarity = (100.0 * image_features @ input_img_feature.T).softmax(dim=0)[:, 0]
-    #    tti_similarity = (100.0 * image_features @ text_features.T).softmax(dim=0)[:, 0]
-    #    dino_iti_similarity = (100.0 * dino_image_features @ dino_input_img_feature.T).softmax(dim=0)[:, 0]
+    else:
+        iti_similarity = (100.0 * image_features @ input_img_feature.T).softmax(dim=0)[:, 0]
+        tti_similarity = (100.0 * image_features @ text_features.T).softmax(dim=0)[:, 0]
+        dino_iti_similarity = (100.0 * dino_image_features @ dino_input_img_feature.T).softmax(dim=0)[:, 0]
 
     return iti_similarity, dino_iti_similarity, tti_similarity
 
