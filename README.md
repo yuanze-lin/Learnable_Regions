@@ -93,6 +93,8 @@ torchrun --nnodes=1 --nproc_per_node=1 train.py \
 **!!!** If you want to edit custom images, please refer to ```images.json``` to prepare the structure. Each key represents the input image's name, 
 the values are class/caption of the input image and editing prompt respectively.
 
+Then you just run the above command from `Editing Multiple Images`.
+
 
 ## Results Using Diverse Prompts 
 
