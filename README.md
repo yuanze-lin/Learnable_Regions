@@ -17,9 +17,17 @@ Official implementation of "Text-Driven Image Editing via Learnable Regions"
 
 ![image](https://github.com/yuanze-lin/LearnableRegions/blob/main/assets/framework.png)
 
+## Contents
+
+
+- [Install](#install)
+- [Edit Single Image](#edit_single_image)
+- [Edit Multiple Image](#edit_multiple_images)
+- [Custom Image Editing](#custom_editing)
+
 ## Getting Started
 
-### :hammer_and_wrench: Environment Installation
+### :hammer_and_wrench: Environment Installation <a href="#install" id="install"/>
 To establish the environment, just run this code in the shell:
 ```
 git clone https://github.com/yuanze-lin/Learnable_Regions.git
@@ -31,7 +39,7 @@ conda env update --file enviroment.yaml
 ```
 That will create the environment ```LearnableRegion``` we used.
 
-### :tophat: Edit Single Image
+### :tophat: Edit Single Image <a href="#edit_single_image" id="edit_single_image"/>
 Run the following command to start editing a single image.
 
 Note that you need to set ```$huggingface_access_token$``` to successfully run the command.
@@ -69,7 +77,7 @@ The explanation for the introduced hyper-parameters from our method:
 > "**point_number**": number of sampled anchor points.  
 > "**draw_box**": whether to draw bounding boxes of results for visualization or not, it will be saved into ```$output_dir$/boxes```.
 
-### :space_invader: Edit Multiple Images 
+### :space_invader: Edit Multiple Images <a href="#edit_multiple_images" id="edit_multiple_images"/>
 Run the following command to start editing multiple images simultaneously, please also remember to set ```$huggingface_access_token$```.
 
 ```
@@ -91,7 +99,7 @@ torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--save_path checkpoints/ 
 ```
 
-### :coffee: How to Edit Custom Images? 
+### :coffee: How to Edit Custom Images? <a href="#custom_editing" id="custom_editing"/>
 
 **Edit single custom image:** please refer to the command from `Edit Single Image`, and change `image_file_path`, `image_caption`, `editing_prompt` accordingly.
 
