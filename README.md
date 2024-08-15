@@ -22,7 +22,7 @@ Official implementation of "Text-Driven Image Editing via Learnable Regions"
 
 - [Install](#install)
 - [Edit Single Image](#edit_single_image)
-- [Edit Multiple Image](#edit_multiple_images)
+- [Edit Multiple Images](#edit_multiple_images)
 - [Custom Image Editing](#custom_editing)
 
 ## Getting Started
