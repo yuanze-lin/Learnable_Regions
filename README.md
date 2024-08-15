@@ -62,7 +62,7 @@ The explanation for hyper-parameters:
 > "**per_image_iteration**": training iterations for each image.
 > 
 > "**point_number**": number of sampled anchor points.
-> "**draw_box**": whether to draw bounding boxes for results or not, it will be saved into ```output_dir/boxes```.
+> "**draw_box**": whether to draw bounding boxes of results for visualization or not, it will be saved into ```output_dir/boxes```.
 
 ### Editing multiple images 
 Run the following command to start training for multiple images.
