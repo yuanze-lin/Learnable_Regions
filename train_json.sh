@@ -1,0 +1,16 @@
+torchrun --nnodes=1 --nproc_per_node=1 train.py \
+	--image_dir_path images/ \
+	--access_token '$huggingface_access_token$' \
+	--output_dir output/ \
+	--json_file images.json \
+	--draw_box \
+	--lr 5e-3 \
+	--max_window_size 15 \
+	--per_image_iteration 10 \
+	--epochs 1 \
+	--num_workers 8 \
+	--seed 42 \
+	--pin_mem \
+	--point_number 9 \
+	--batch_size 1 \
+	--save_path checkpoints/ 
