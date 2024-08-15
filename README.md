@@ -58,11 +58,8 @@ The whole training time for editing one single image is about 4 minutes with 1 G
 The explanation for hyper-parameters:
 
 "**max_window_size**": max bounding box size.
-
 "**per_image_iteration**": training iterations for each image.
-
 "**point_number**": number of sampled anchor points.
-
 "**draw_box**": whether to draw bounding boxes for results or not, it will be saved into ```output_dir/boxes```.
 
 
