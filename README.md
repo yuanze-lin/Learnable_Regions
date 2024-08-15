@@ -31,7 +31,7 @@ conda env update --file enviroment.yaml
 That will create the environment ```LearnableRegion``` we used.
 
 ### Edit Single Image
-Run the following command to start editing for only one single image.
+Run the following command to start editing a single image.
 
 Note that you need to fill out ```$huggingface_access_token$``` to successfully run the command.
 
@@ -67,7 +67,7 @@ The explanation for hyper-parameters:
 > "**draw_box**": whether to draw bounding boxes of results for visualization or not, it will be saved into ```$output_dir$/boxes```.
 
 ### Edit Multiple Images 
-Run the following command to start editing for multiple images simultaneously.
+Run the following command to start editing multiple images simultaneously.
 
 ```
 torchrun --nnodes=1 --nproc_per_node=1 train.py \
