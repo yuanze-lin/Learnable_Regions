@@ -30,7 +30,7 @@ conda env update --file enviroment.yaml
 ```
 That will create the environment ```LearnableRegion``` we used.
 
-### Editing single image
+### Editing Single Image
 Run the following command to start training for single image.
 
 Note that you need to fill out ```$huggingface_access_token$``` to successfully run the command.
@@ -66,7 +66,7 @@ The explanation for hyper-parameters:
 > "**point_number**": number of sampled anchor points.  
 > "**draw_box**": whether to draw bounding boxes of results for visualization or not, it will be saved into ```output_dir/boxes```.
 
-### Editing multiple images 
+### Editing Multiple Images 
 Run the following command to start training for multiple images.
 
 ```
@@ -88,8 +88,11 @@ torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--save_path checkpoints/ 
 ```
 
+### How to Edit Custom Images 
+
 **!!!** If you want to edit custom images, please refer to ```images.json``` to prepare the structure. Each key represents the input image's name, 
 the values are class/caption of the input image and editing prompt respectively.
+
 
 ## Results Using Diverse Prompts 
 
