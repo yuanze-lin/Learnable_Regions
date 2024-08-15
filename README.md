@@ -111,11 +111,14 @@ the values are class/caption of the input image and editing prompt respectively,
 
 ## Citation
 
+If you find our work useful in your research or applications, please consider citing our paper using the following BibTeX:
+
 ```
-@article{lin2023text,
-  title={Text-Driven Image Editing via Learnable Regions},
+@inproceedings{lin2024text,
+  title={Text-driven image editing via learnable regions},
   author={Lin, Yuanze and Chen, Yi-Wen and Tsai, Yi-Hsuan and Jiang, Lu and Yang, Ming-Hsuan},
-  journal={arXiv preprint arXiv:2311.16432},
-  year={2023}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={7059--7068},
+  year={2024}
 }
 ```
