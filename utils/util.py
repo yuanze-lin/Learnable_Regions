@@ -19,8 +19,6 @@ class EditingJsonDataset(Dataset):
         self.transform = build_transform(args)
         with open(args.json_file, 'r') as f:
             self.image_prompt = json.load(f)
-            #self.image_files = sorted([key for key in self.image_prompt.keys()] * repeats,\
-            #        key=lambda x: int(x.split('.')[0]))
             self.image_files = list(self.image_prompt.keys())*repeats
         f.close()
 
