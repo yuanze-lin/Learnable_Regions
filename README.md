@@ -60,7 +60,7 @@ The editing results will be stored in ```$output_dir$```, and the whole editing 
 
 You can tune `max_window_size`, `per_image_iteration` and `point_number` for adjusting the editing time and performance.
 
-The explanation for hyper-parameters:
+The explanation for the introduce hyper-parameters from our method:
 
 > "**image_caption**": the caption of the input image, we just use class name in our paper.  
 >  "**editing_prompt**": the editing prompt for manipulating the input image.  
