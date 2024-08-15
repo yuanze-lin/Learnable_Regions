@@ -11,7 +11,7 @@ Abstract: Language has emerged as a natural interface for image editing. In this
 
 ![image](https://github.com/yuanze-lin/LearnableRegions/blob/main/assets/overview.png)
 
-If you find our project is helpful for your research, please kindly give us a :star2: and cite our paper :bookmark_tabs:   : )
+**If you find our project is helpful for your research, please kindly give us a :star2: and cite our paper :bookmark_tabs:   : )**
 
 ## Method Overview
 
