@@ -1,4 +1,5 @@
 # Text-Driven Image Editing via Learnable Regions <br /> (CVPR 2024)
+**If you find our project is helpful for your research, please kindly give us a :star2: and cite our paper :bookmark_tabs:   : )**
 
 **[Paper](https://arxiv.org/abs/2311.16432)** | **[Project Page](https://yuanze-lin.me/LearnableRegions_page/)** | **[Youtube Video](https://www.youtube.com/watch?v=FpMWRXFraK8&feature=youtu.be)**
 
@@ -11,7 +12,6 @@ Abstract: Language has emerged as a natural interface for image editing. In this
 
 ![image](https://github.com/yuanze-lin/LearnableRegions/blob/main/assets/overview.png)
 
-**If you find our project is helpful for your research, please kindly give us a :star2: and cite our paper :bookmark_tabs:   : )**
 
 ## Method Overview
 
