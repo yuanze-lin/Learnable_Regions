@@ -67,7 +67,7 @@ def extract_features(model, dino_model, preprocess, input_img_path, edit_img_dir
     return input_img_feature, image_features, text_features, img_paths, \
                 edit_imgs, input_img, dino_image_features, dino_input_img_feature 
 
-def compute_similarity(input_img_feature, image_features, dino_input_img_feature, dino_image_features, text_features, cosine_sim =  True): 
+def compute_similarity(input_img_feature, image_features, dino_input_img_feature, dino_image_features, text_features, cosine_sim=True): 
     if cosine_sim == True:
         iti_similarity = torch.nn.functional.cosine_similarity(image_features, input_img_feature).softmax(dim=0)
         tti_similarity = torch.nn.functional.cosine_similarity(image_features, text_features).softmax(dim=0)
