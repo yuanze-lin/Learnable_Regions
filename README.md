@@ -67,7 +67,7 @@ The explanation for hyper-parameters:
 ### Editing multiple images 
 Run the following command to start training for multiple images.
 
-Please refer to ```images.json``` to see its structure.
+If you want to edit custom images, please refer to ```images.json``` to prepare the structure.
 ```
 torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--image_dir_path images/ \
