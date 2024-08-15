@@ -34,6 +34,8 @@ That will create the environment ```LearnableRegion``` we used.
 Run the following command to start training for single image.
 
 Note that you need to fill out ```huggingface_access_token``` to successfully run the command.
+
+The whole training time for editing one single image is about 4 minutes with 1 GPU.
 ```
 torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--image_file_path images/1.png \
@@ -53,7 +55,6 @@ torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--batch_size 1 \
 	--save_path checkpoints/ 
 ```
-The whole training time for editing one single image is about 4 minutes with 1 GPU.
 
 The explanation for hyper-parameters:
 
