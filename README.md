@@ -21,7 +21,7 @@ Abstract: Language has emerged as a natural interface for image editing. In this
 ### Installation
 To establish the environment, just run this code in the shell:
 ```
-git clone https://github.com/yzleroy/Learnable_Regions.git
+git clone https://github.com/yuanze-lin/Learnable_Regions.git
 cd Learnable_Regions
 conda create -n LearnableRegion python==3.9
 source activate LearnableRegion
