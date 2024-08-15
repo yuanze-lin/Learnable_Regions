@@ -56,7 +56,7 @@ torchrun --nnodes=1 --nproc_per_node=1 train.py \
 
 ```
 
-The results will be stored in ```output_dir```, and the whole training time for editing one single image is about 4 minutes with 1 GPU.
+The editing results will be stored in ```output_dir```, and the whole training time for editing one single image is about 4 minutes with 1 GPU.
 
 The explanation for hyper-parameters:
 
