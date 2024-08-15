@@ -53,7 +53,7 @@ torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--batch_size 1 \
 	--save_path checkpoints/ 
 ```
-The whole training time for editing one sample image is about 4 minutes with 1 GPU.
+The whole training time for editing one single image is about 4 minutes with 1 GPU.
 
 ### Editing multiple images 
 Run the following command to start training for multiple images.
