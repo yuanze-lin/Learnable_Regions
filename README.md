@@ -59,11 +59,11 @@ The editing results will be stored in ```output_dir```, and the whole training t
 
 The explanation for hyper-parameters:
 
-> "**image_caption**": the caption of the input image, we just use class name in our paper.
->  "**editing_prompt**": the editing prompt for manipulating the input image.
-> "**max_window_size**": max bounding box size. 
-> "**per_image_iteration**": training iterations for each image.
-> "**point_number**": number of sampled anchor points.
+> "**image_caption**": the caption of the input image, we just use class name in our paper.  
+>  "**editing_prompt**": the editing prompt for manipulating the input image.  
+> "**max_window_size**": max bounding box size.  
+> "**per_image_iteration**": training iterations for each image.  
+> "**point_number**": number of sampled anchor points.  
 > "**draw_box**": whether to draw bounding boxes of results for visualization or not, it will be saved into ```output_dir/boxes```.
 
 ### Editing multiple images 
