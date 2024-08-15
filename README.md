@@ -69,9 +69,6 @@ The explanation for hyper-parameters:
 ### Editing multiple images 
 Run the following command to start training for multiple images.
 
-If you want to edit custom images, please refer to ```images.json``` to prepare the structure. Each key represents the input image's name, 
-the values are class/caption of the input image and editing prompt respectively.
-
 ```
 torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--image_dir_path images/ \
@@ -90,7 +87,10 @@ torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--batch_size 1 \
 	--save_path checkpoints/ 
 ```
- 
+
+! If you want to edit custom images, please refer to ```images.json``` to prepare the structure. Each key represents the input image's name, 
+the values are class/caption of the input image and editing prompt respectively.
+
 ## Results Using Diverse Prompts 
 
 ![image](https://github.com/yuanze-lin/LearnableRegions/blob/main/assets/results.png)
