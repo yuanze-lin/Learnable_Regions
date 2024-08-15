@@ -88,7 +88,7 @@ torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--save_path checkpoints/ 
 ```
 
-! If you want to edit custom images, please refer to ```images.json``` to prepare the structure. Each key represents the input image's name, 
+**!!!** If you want to edit custom images, please refer to ```images.json``` to prepare the structure. Each key represents the input image's name, 
 the values are class/caption of the input image and editing prompt respectively.
 
 ## Results Using Diverse Prompts 
