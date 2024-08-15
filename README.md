@@ -55,8 +55,9 @@ torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--batch_size 1 \
 	--save_path checkpoints/
 
-The results will be stored in ```output_dir```.
 ```
+
+The results will be stored in ```output_dir```.
 
 The explanation for hyper-parameters:
 
