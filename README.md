@@ -77,6 +77,12 @@ torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--batch_size 1 \
 	--save_path checkpoints/ 
 ```
+
+The explanation for hyper-parameters:
+"**max_window_size**": max bounding box size.
+"**per_image_iteration**": training iterations for each image.
+"**point_number**": number of sampled anchor points.
+"**draw_box**": whether to draw bounding boxes for results or not, it will be saved into ```output_dir/boxes```.
  
 ## Results Using Diverse Prompts 
 
