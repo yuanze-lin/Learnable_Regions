@@ -33,6 +33,7 @@ That will create the environment ```LearnableRegion``` we used.
 
 ### Editing single image
 Run the following command to start training for single image.
+
 Note that you need to fill out ```huggingface_access_token``` to successfully run the command.
 ```
 torchrun --nnodes=1 --nproc_per_node=1 train.py \
@@ -57,6 +58,7 @@ The whole training time is about 4 minutes with 1 GPU.
 
 ### Editing multiple images 
 Run the following command to start training for multiple images.
+
 Please refer to ```images.json``` to see its structure.
 ```
 torchrun --nnodes=1 --nproc_per_node=1 train.py \
