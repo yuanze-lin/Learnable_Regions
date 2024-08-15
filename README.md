@@ -90,9 +90,9 @@ torchrun --nnodes=1 --nproc_per_node=1 train.py \
 
 ### How to Edit Custom Images? 
 
-**Editing single custom image:** please refer to the command from `Editing Single Image`, and change `image_file_path`, `image_caption`, `editing_prompt` accordingly.
+**Edit single custom image:** please refer to the command from `Editing Single Image`, and change `image_file_path`, `image_caption`, `editing_prompt` accordingly.
 
-**Editing multiple custom images:** please refer to ```images.json``` to prepare the structure. Each key represents the input image's name, 
+**Edit multiple custom images:** please refer to ```images.json``` to prepare the structure. Each key represents the input image's name, 
 the values are class/caption of the input image and editing prompt respectively. and then just run the above command from `Editing Multiple Images`.
 
 
