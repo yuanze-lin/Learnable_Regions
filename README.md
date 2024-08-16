@@ -1,6 +1,8 @@
 # Text-Driven Image Editing via Learnable Regions <br /> (CVPR 2024)
 **:hearts: If you find our project is helpful for your research, please kindly give us a :star2: and cite our paper :bookmark_tabs:   : )**
 
+[![arXiv](https://img.shields.io/badge/arXiv-2311.16432-b31b1b.svg)](https://arxiv.org/pdf/2311.16432) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/weiji14/deepbedmap/](https://colab.research.google.com/drive/1mRWzNOlo_RR_zvrnHODgBoPAa59vGUdz#scrollTo=v_4gmzDOzN98))
+
 **[Paper](https://arxiv.org/abs/2311.16432)** | **[Project Page](https://yuanze-lin.me/LearnableRegions_page/)** | **[Youtube Video](https://www.youtube.com/watch?v=FpMWRXFraK8&feature=youtu.be)**
 
 Official implementation of "Text-Driven Image Editing via Learnable Regions" 
