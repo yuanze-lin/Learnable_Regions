@@ -2,7 +2,6 @@ torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--image_file_path images/1.png \
 	--image_caption 'trees' \
 	--editing_prompt 'a big tree with many flowers in the center' \
-	--access_token '$huggingface_access_token$' \
 	--output_dir output/ \
 	--draw_box \
 	--lr 5e-3 \
