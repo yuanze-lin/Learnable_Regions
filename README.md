@@ -12,13 +12,14 @@ Official implementation of "Text-Driven Image Editing via Learnable Regions"
 
 ![image](https://github.com/yuanze-lin/LearnableRegions/blob/main/assets/overview.png)
 
-## News
-
-[2024.8.15] Code has been released.
 
 ## Method Overview
 
 ![image](https://github.com/yuanze-lin/LearnableRegions/blob/main/assets/framework.png)
+
+## News
+
+[2024.8.15] Code has been released.
 
 ## Contents
 
