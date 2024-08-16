@@ -30,7 +30,6 @@ def inpaint(pipe, prompts, init_images, mask_images=None, latents=None, strength
 
 def init_diffusion_engine(model_path, device):
     print('Initializing diffusion model: ', model_path)
-    print('Access token: ', access_token)
     pipe = StableDiffusionInpaintPipeline.from_pretrained(
         model_path,
         revision="fp16", 
