@@ -46,14 +46,11 @@ That will create the environment ```LearnableRegion``` we used.
 ### :tophat: Edit Single Image <a href="#edit_single_image" id="edit_single_image"/>
 Run the following command to start editing a single image.
 
-Note that you need to set ```$huggingface_access_token$``` to successfully run the command.
-
 ```
 torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--image_file_path images/1.png \
 	--image_caption 'trees' \
 	--editing_prompt 'a big tree with many flowers in the center' \
-	--access_token '$huggingface_access_token$' \
 	--output_dir output/ \
 	--draw_box \
 	--lr 5e-3 \
@@ -82,12 +79,11 @@ The explanation for the introduced hyper-parameters from our method:
 > "**draw_box**": whether to draw bounding boxes of results for visualization or not, it will be saved into ```$output_dir$/boxes```.
 
 ### :space_invader: Edit Multiple Images <a href="#edit_multiple_images" id="edit_multiple_images"/>
-Run the following command to start editing multiple images simultaneously, please also remember to set ```$huggingface_access_token$```.
+Run the following command to start editing multiple images simultaneously.
 
 ```
 torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--image_dir_path images/ \
-	--access_token '$huggingface_access_token$' \
 	--output_dir output/ \
 	--json_file images.json \
 	--draw_box \
