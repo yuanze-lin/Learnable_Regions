@@ -36,7 +36,7 @@ To establish the environment, just run this code in the shell:
 ```
 git clone https://github.com/yuanze-lin/Learnable_Regions.git
 cd Learnable_Regions
-conda create -n LearnableRegion python==3.9
+conda create -n LearnableRegion python==3.9 -y
 source activate LearnableRegion
 pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
 conda env update --file enviroment.yaml
