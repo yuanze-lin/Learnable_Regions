@@ -28,14 +28,13 @@ def inpaint(pipe, prompts, init_images, mask_images=None, latents=None, strength
     
     return torch.cat(all_images, dim=0)
 
-def init_diffusion_engine(model_path, access_token, device):
+def init_diffusion_engine(model_path, device):
     print('Initializing diffusion model: ', model_path)
     print('Access token: ', access_token)
     pipe = StableDiffusionInpaintPipeline.from_pretrained(
         model_path,
         revision="fp16", 
-        torch_dtype=torch.float16,
-        use_auth_token=access_token
+        torch_dtype=torch.float16
     ).to(device)
 
     pipe.set_progress_bar_config(disable=True)
