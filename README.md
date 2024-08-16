@@ -65,7 +65,7 @@ torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--save_path checkpoints/
 ```
 
-The editing results will be stored in ```$output_dir```, and the whole editing time of one single image is about 4 minutes with 1 GPU.  
+The editing results will be stored in ```$output_dir```, and the whole editing time of one single image is about 4 minutes with 1 RTX 8000 GPU.  
 
 You can tune `max_window_size`, `per_image_iteration` and `point_number` for adjusting the editing time and performance.
 
