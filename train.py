@@ -146,7 +146,6 @@ def get_args_parser():
     parser.add_argument('--diffusion_model_path', type=str, default='runwayml/stable-diffusion-inpainting', help='path to stable diffusion model.')
     parser.add_argument('--save_path', type=str, default='./checkpoints', help='path to save checkpoint.')
     parser.add_argument('--load_checkpoint_path', type=str, default=None, help='path to save checkpoint.')
-    parser.add_argument('--access_token', type=str, default='', help='access token for diffusion model usage')
     parser.add_argument('--output_dir', type=str, default='./output', help='path to output dir.')
     parser.add_argument('--device', type=str, default="cuda", help='device the training is on.')
     parser.add_argument('--batch_size', type=int, default=192, help='batch size for training.')
