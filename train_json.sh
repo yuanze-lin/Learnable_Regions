@@ -1,6 +1,5 @@
 torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--image_dir_path images/ \
-	--access_token '$huggingface_access_token$' \
 	--output_dir output/ \
 	--json_file images.json \
 	--draw_box \
