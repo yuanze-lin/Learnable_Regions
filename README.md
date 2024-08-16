@@ -82,7 +82,7 @@ The explanation for the introduced hyper-parameters from our method:
 Run the following command to start editing multiple images simultaneously.
 
 ```
-torchrun --nnodes=1 --nproc_per_node=1 train.py \
+torchrun --nnodes=1 --nproc_per_node=2 train.py \
 	--image_dir_path images/ \
 	--output_dir output/ \
 	--json_file images.json \
