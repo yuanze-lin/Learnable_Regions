@@ -21,7 +21,7 @@ Official implementation of "Text-Driven Image Editing via Learnable Regions"
 
 ## News
 
-- [2024.8.16] Release a demo at [Colab](https://colab.research.google.com/drive/1mRWzNOlo_RR_zvrnHODgBoPAa59vGUdz#scrollTo=v_4gmzDOzN98), having fun playing with it :art:.     
+- [2024.8.16] Release a demo on [Colab](https://colab.research.google.com/drive/1mRWzNOlo_RR_zvrnHODgBoPAa59vGUdz#scrollTo=v_4gmzDOzN98) and have fun playing with it :art:.     
 - [2024.8.15] Code has been released.
 
 ## Contents
