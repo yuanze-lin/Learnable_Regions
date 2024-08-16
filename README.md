@@ -65,7 +65,7 @@ torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--save_path checkpoints/
 ```
 
-The editing results will be stored in ```$output_dir$```, and the whole editing time of one single image is about 4 minutes with 1 GPU.  
+The editing results will be stored in ```$output_dir```, and the whole editing time of one single image is about 4 minutes with 1 GPU.  
 
 You can tune `max_window_size`, `per_image_iteration` and `point_number` for adjusting the editing time and performance.
 
@@ -76,7 +76,7 @@ The explanation for the introduced hyper-parameters from our method:
 > "**max_window_size**": max anchor bounding box size.  
 > "**per_image_iteration**": training iterations for each image.  
 > "**point_number**": number of sampled anchor points.  
-> "**draw_box**": whether to draw bounding boxes of results for visualization or not, it will be saved into ```$output_dir$/boxes```.
+> "**draw_box**": whether to draw bounding boxes of results for visualization or not, it will be saved into ```$output_dir/boxes```.
 
 ### :space_invader: Edit Multiple Images <a href="#edit_multiple_images" id="edit_multiple_images"/>
 Run the following command to start editing multiple images simultaneously.
