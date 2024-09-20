@@ -54,6 +54,7 @@ torchrun --nnodes=1 --nproc_per_node=1 train.py \
 	--image_file_path images/1.png \
 	--image_caption 'trees' \
 	--editing_prompt 'a big tree with many flowers in the center' \
+        --diffusion_model_path 'stabilityai/stable-diffusion-2-inpainting' \
 	--output_dir output/ \
 	--draw_box \
 	--lr 5e-3 \
@@ -89,6 +90,7 @@ torchrun --nnodes=1 --nproc_per_node=2 train.py \
 	--image_dir_path images/ \
 	--output_dir output/ \
 	--json_file images.json \
+        --diffusion_model_path 'stabilityai/stable-diffusion-2-inpainting' \
 	--draw_box \
 	--lr 5e-3 \
 	--max_window_size 15 \
