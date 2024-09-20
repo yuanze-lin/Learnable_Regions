@@ -2,7 +2,8 @@ torchrun --nnodes=1 --nproc_per_node=2 train.py \
 	--image_dir_path images/ \
 	--output_dir output/ \
 	--json_file images.json \
-	--draw_box \
+        --diffusion_model_path 'stabilityai/stable-diffusion-2-inpainting' \
+        --draw_box \
 	--lr 5e-3 \
 	--max_window_size 15 \
 	--per_image_iteration 10 \
