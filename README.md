@@ -88,8 +88,7 @@ The explanation for the introduced hyper-parameters from our method:
 ### :space_invader: Edit Multiple Images <a href="#edit_multiple_images" id="edit_multiple_images"/>
 Run the following command to start editing multiple images simultaneously.
 
-**Since runwayml has removed its impressive inpainting model ('runwayml/stable-diffusion-inpainting'),
-if you haven't stored it, please set `--diffusion_model_path 'stabilityai/stable-diffusion-2-inpainting'`.**
+**If you haven't downloaded 'runwayml/stable-diffusion-inpainting' before it was closed, please set `--diffusion_model_path 'stabilityai/stable-diffusion-2-inpainting'`.**
 
 ```
 torchrun --nnodes=1 --nproc_per_node=2 train.py \
