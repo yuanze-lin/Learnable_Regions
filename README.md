@@ -50,7 +50,7 @@ That will create the environment ```LearnableRegion``` we used.
 Run the following command to start editing a single image.
 
 **Since runwayml has removed its impressive inpainting model ('runwayml/stable-diffusion-inpainting'),
-if you haven't stored it, please set `--diffusion_model_path 'stabilityai/stable-diffusion-2-inpainting`.**
+if you haven't stored it, please set `--diffusion_model_path 'stabilityai/stable-diffusion-2-inpainting'`.**
 
 ```
 torchrun --nnodes=1 --nproc_per_node=1 train.py \
@@ -89,7 +89,7 @@ The explanation for the introduced hyper-parameters from our method:
 Run the following command to start editing multiple images simultaneously.
 
 **Since runwayml has removed its impressive inpainting model ('runwayml/stable-diffusion-inpainting'),
-if you haven't stored it, please set `--diffusion_model_path 'stabilityai/stable-diffusion-2-inpainting`.**
+if you haven't stored it, please set `--diffusion_model_path 'stabilityai/stable-diffusion-2-inpainting'`.**
 
 ```
 torchrun --nnodes=1 --nproc_per_node=2 train.py \
